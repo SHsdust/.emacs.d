@@ -18,4 +18,11 @@
 (global-set-key [remap comment-or-uncomment-region] 'my-comment-or-uncomment-region)
 (global-set-key(kbd "C-u") 'comment-or-uncomment-region)
 
+;; company config
+(setq company-idle-delay 0)
+(setq company-minimum-prefix-length 1)
+
+;; cpp default offset
+(setq c-basic-offset 4)
+
 (provide 'init-local)
