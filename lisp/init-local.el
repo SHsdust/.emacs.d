@@ -26,7 +26,6 @@
 (setq c-basic-offset 4)
 
 (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
-                         ("org-cn". "http://elpa.emacs-china.org/org/")
                          ("melpa" . "http://elpa.emacs-china.org/melpa/")))
 
 (provide 'init-local)
