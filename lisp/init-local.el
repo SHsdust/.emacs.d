@@ -29,4 +29,7 @@
                          ("org"   . "http://elpa.emacs-china.org/org/")
                          ("melpa" . "http://elpa.emacs-china.org/melpa/")))
 
+;; set ctrl-s to `swiper'
+(global-set-key "\C-s" 'swiper)
+
 (provide 'init-local)
