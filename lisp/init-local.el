@@ -25,6 +25,7 @@
 ;; cpp default offset
 (setq c-basic-offset 4)
 (setq python-indent-guess-indent-offset nil)
+
 ;; set Chinese mirrors
 (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
                          ("org"   . "http://elpa.emacs-china.org/org/")
