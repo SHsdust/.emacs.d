@@ -98,7 +98,7 @@
 (require 'init-css)
 (require 'init-haml)
 (require 'init-http)
-(require 'init-python)
+;; (require 'init-python)
 (require 'init-haskell)
 (require 'init-elm)
 (require 'init-purescript)
@@ -174,6 +174,28 @@
 ;; Locales (setting them earlier in this file doesn't work in X)
 ;;----------------------------------------------------------------------------
 (require 'init-locales)
+
+;;----------------------------------------------------------------------------
+;; Nox code completion
+;;----------------------------------------------------------------------------
+(require 'posframe)
+(require 'nox)
+
+(dolist (hook (list
+               'js-mode-hook
+               'rust-mode-hook
+               'python-mode-hook
+               'ruby-mode-hook
+               'java-mode-hook
+               'sh-mode-hook
+               'php-mode-hook
+               'c-mode-common-hook
+               'c-mode-hook
+               'csharp-mode-hook
+               'c++-mode-hook
+               'haskell-mode-hook
+               ))
+  (add-hook hook '(lambda () (nox-ensure))))
 
 
 ;;----------------------------------------------------------------------------

@@ -20,7 +20,7 @@
 
 ;; company config
 (setq company-idle-delay 0)
-(setq company-minimum-prefix-length 1)
+(setq company-minimum-prefix-length 2)
 
 ;; cpp default offset
 (setq c-basic-offset 4)
@@ -33,5 +33,7 @@
 
 ;; set ctrl-s to `swiper'
 (global-set-key "\C-s" 'swiper)
+
+
 
 (provide 'init-local)
