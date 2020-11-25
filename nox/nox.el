@@ -284,7 +284,7 @@ Font format follow rule: fontname-fontsize."
 Can set with `intelephense' or `php-language-server'."
   :type 'string)
 
-(defcustom nox-python-server "mspyls"
+(defcustom nox-python-server "pyls"
   "The default server for Python mode.
 Can set with `pyls', `mspyls' or `pyright'.
 
