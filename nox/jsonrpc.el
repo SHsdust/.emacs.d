@@ -294,11 +294,11 @@ ignored."
                                   (throw tag `(done ,result))))
                   :error-fn
                   (jsonrpc-lambda
-                   (&key code message data)
-                   (unless cancelled
-                     (throw tag `(error (jsonrpc-error-code . ,code)
-                                        (jsonrpc-error-message . ,message)
-                                        (jsonrpc-error-data . ,data)))))
+                      (&key code message data)
+                    (unless cancelled
+                      (throw tag `(error (jsonrpc-error-code . ,code)
+                                         (jsonrpc-error-message . ,message)
+                                         (jsonrpc-error-data . ,data)))))
                   :timeout-fn
                   (lambda ()
                     (unless cancelled
@@ -625,17 +625,17 @@ TIMEOUT is nil)."
     (puthash id
              (list (or success-fn
                        (jsonrpc-lambda (&rest _ignored)
-                                  (jsonrpc--debug
-                                   connection (list :message "success ignored"
-                                                    :id id))))
+                         (jsonrpc--debug
+                          connection (list :message "success ignored"
+                                           :id id))))
                    (or error-fn
                        (jsonrpc-lambda (&key code message &allow-other-keys)
-                                  (jsonrpc--debug
-                                   connection (list
-                                               :message
-                                               (format "error ignored, status set (%s)"
-                                                       message)
-                                               :id id :error code))))
+                         (jsonrpc--debug
+                          connection (list
+                                      :message
+                                      (format "error ignored, status set (%s)"
+                                              message)
+                                      :id id :error code))))
                    (setq timer (funcall make-timer)))
              (jsonrpc--request-continuations connection))
     (list id timer)))
