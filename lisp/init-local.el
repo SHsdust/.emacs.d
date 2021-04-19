@@ -26,14 +26,8 @@
 (setq c-basic-offset 4)
 (setq python-indent-guess-indent-offset nil)
 
-;; set Chinese mirrors
-(setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
-                         ("org"   . "http://elpa.emacs-china.org/org/")
-                         ("melpa" . "http://elpa.emacs-china.org/melpa/")))
 
 ;; set ctrl-s to `swiper'
 (global-set-key "\C-s" 'swiper)
-
-
 
 (provide 'init-local)

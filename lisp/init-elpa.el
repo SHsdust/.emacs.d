@@ -15,8 +15,13 @@
 
 ;;; Standard package repositories
 
+;; set Chinese mirrors
+(setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
+                         ("org"   . "http://elpa.emacs-china.org/org/")
+                         ("melpa" . "http://elpa.emacs-china.org/melpa/")))
+
 ;; set melpa mirror to emacs-china melpa mirror
-(add-to-list 'package-archives '( "melpa" . "http://elpa.emacs-china.org/melpa/") t)
+;; (add-to-list 'package-archives '( "melpa" . "http://elpa.emacs-china.org/melpa/") t)
 ;; (add-to-list 'package-archives '( "melpa" . "https://melpa.org/packages/") t)
 ;; Official MELPA Mirror, in case necessary.
 ;;(add-to-list 'package-archives (cons "melpa-mirror" (concat proto "://www.mirrorservice.org/sites/melpa.org/packages/")) t)
