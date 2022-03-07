@@ -54,8 +54,10 @@
           (transpose-lines arg))
         (forward-line -1))
       (move-to-column column t)))))
-
-(defun move-text-down (arg)
+(defun move-text-right (arg)
+  "move right"
+  (interactive "*p")
+  (move-text-internal arg))(defun move-text-down (arg)
   "Move region (transient-mark-mode active) or current line
   arg lines down."
   (interactive "*p")
