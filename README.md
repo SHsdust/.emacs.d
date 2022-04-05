@@ -2,5 +2,5 @@
 
 Install by:
 ```
-git clone https://github.com/SHsdust/emacsv27-configure.git ~/.emacs.d
+git clone git@github.com:SHsdust/.emacs.d.git ~/.emacs.d
 ```
