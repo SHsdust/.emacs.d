@@ -1,4 +1,4 @@
-# emacsv27-configure
+# emacs configure
 
 Install by:
 ```
