@@ -1,5 +1,5 @@
 
-# my emacs configure
+# emacs configure
 
 Install by:
 ```
