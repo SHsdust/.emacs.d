@@ -5,7 +5,7 @@
 /.session
 /session.*
 /custom.el
-# *.dat
+*.dat
 *.elc
 CVS
 .svn
