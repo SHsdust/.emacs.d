@@ -87,6 +87,7 @@
 
 (require 'init-compile)
 (require 'init-crontab)
+
 (require 'init-textile)
 (require 'init-markdown)
 (require 'init-csv)
@@ -201,8 +202,8 @@
 ;;----------------------------------------------------------------------------
 ;; Allow users to provide an optional "init-local" containing personal settings
 ;;----------------------------------------------------------------------------
-(require 'init-local nil t)
 
+(require 'init-local nil t)
 
 (provide 'init)
 (put 'set-goal-column 'disabled nil)

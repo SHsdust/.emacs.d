@@ -73,4 +73,37 @@
 (global-set-key [S-C-up] 'move-text-up)
 (global-set-key [S-C-down] 'move-text-down)
 
+
+;; load AUCTeX
+;; (require 'tex)
+;; (require 'preview)
+
+;; set Latex path
+;; (setq TeX-auto-save t)
+;; (setq TeX-parse-self t)
+;; (setq-default TeX-master nil)
+
+
+;; enable RelLeX
+;; (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
+
+;; add xeLaTeX
+(add-hook 'LaTeX-mode-hook
+          #'(lambda ()
+              (add-to-list 'TeX-command-list '("XeLaTeX" "%`xelatex --synctex=1%(mode)%' %t" TeX-run-TeX nil t))))
+
+;; (add-hook 'LaTeX-mode-hook
+;;           (lambda ()
+;;             (setq TeX-auto-untabify t     ; remove all tabs before saving
+;;                   TeX-engine 'xetex       ; use xelatex default
+;;                   ;; TeX-show-compilation t  ; display compilation windows
+;;                   )
+;;             (TeX-global-PDF-mode t)       ; PDF mode enable, not plain
+;;             (setq TeX-save-query nil)
+;;             ;; (imenu-add-menubar-index)
+;;             ;; (define-key LaTeX-mode-map (kbd "TAB") 'TeX-complete-symbol)
+;;             )
+;;           )
+
+
 (provide 'init-local)
