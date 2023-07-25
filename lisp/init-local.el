@@ -23,7 +23,8 @@
 (setq company-minimum-prefix-length 2)
 
 ;; cpp default offset
-(setq c-basic-offset 4)
+(setq c-default-style "linux"
+      c-basic-offset 2)
 
 (setq python-indent-offset 4)
 (setq python-indent-guess-indent-offset nil)
@@ -32,79 +33,20 @@
 ;; set ctrl-s to `swiper'
 (global-set-key "\C-s" 'swiper)
 
-
-;; move line up & down
-(defun move-text-internal (arg)
-  (cond
-   ((and mark-active transient-mark-mode)
-    (if (> (point) (mark))
-        (exchange-point-and-mark))
-    (let ((column (current-column))
-          (text (delete-and-extract-region (point) (mark))))
-      (forward-line arg)
-      (move-to-column column t)
-      (set-mark (point))
-      (insert text)
-      (exchange-point-and-mark)
-      (setq deactivate-mark nil)))
-   (t
-    (let ((column (current-column)))
-      (beginning-of-line)
-      (when (or (> arg 0) (not (bobp)))
-        (forward-line)
-        (when (or (< arg 0) (not (eobp)))
-          (transpose-lines arg))
-        (forward-line -1))
-      (move-to-column column t)))))
-(defun move-text-right (arg)
-  "move right"
-  (interactive "*p")
-  (move-text-internal arg))(defun move-text-down (arg)
-  "Move region (transient-mark-mode active) or current line
-  arg lines down."
-  (interactive "*p")
-  (move-text-internal arg))
-
-(defun move-text-up (arg)
-  "Move region (transient-mark-mode active) or current line
-  arg lines up."
-  (interactive "*p")
-  (move-text-internal (- arg)))
-
-(global-set-key [S-C-up] 'move-text-up)
-(global-set-key [S-C-down] 'move-text-down)
+;; move text up & down
+(global-set-key (kbd "C-M-<up>") 'move-text-up)
+(global-set-key (kbd "C-M-<down>") 'move-text-down)
 
 
-;; load AUCTeX
-;; (require 'tex)
-;; (require 'preview)
-
-;; set Latex path
-;; (setq TeX-auto-save t)
-;; (setq TeX-parse-self t)
-;; (setq-default TeX-master nil)
-
-
-;; enable RelLeX
-;; (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
 
 ;; add xeLaTeX
 (add-hook 'LaTeX-mode-hook
           #'(lambda ()
               (add-to-list 'TeX-command-list '("XeLaTeX" "%`xelatex --synctex=1%(mode)%' %t" TeX-run-TeX nil t))))
 
-;; (add-hook 'LaTeX-mode-hook
-;;           (lambda ()
-;;             (setq TeX-auto-untabify t     ; remove all tabs before saving
-;;                   TeX-engine 'xetex       ; use xelatex default
-;;                   ;; TeX-show-compilation t  ; display compilation windows
-;;                   )
-;;             (TeX-global-PDF-mode t)       ; PDF mode enable, not plain
-;;             (setq TeX-save-query nil)
-;;             ;; (imenu-add-menubar-index)
-;;             ;; (define-key LaTeX-mode-map (kbd "TAB") 'TeX-complete-symbol)
-;;             )
-;;           )
+;; lsp-bridge jump to def and back
+(global-set-key (kbd "M-.") 'lsp-bridge-find-def)
+(global-set-key (kbd "M-;") 'lsp-bridge-find-def-return)
 
 
 (provide 'init-local)
