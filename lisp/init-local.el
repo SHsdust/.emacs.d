@@ -1,5 +1,6 @@
 ;; set-font
-(setq default-frame-alist '((font . "Iosevka-14")))
+;; (setq default-frame-alist '((font . "Iosevka-16")))
+(setq default-frame-alist '((font . "Iosevka-14:weight=normal")))
 
 ;;cancell scroll-bar
 (set-scroll-bar-mode nil)
