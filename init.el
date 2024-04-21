@@ -212,6 +212,15 @@
 (global-lsp-bridge-mode)
 
 ;;----------------------------------------------------------------------------
+;; copilot
+;;----------------------------------------------------------------------------
+(add-to-list 'load-path "~/.emacs.d/plugins/copilot.el")
+(require 'copilot)
+(add-hook 'prog-mode-hook 'copilot-mode)
+(define-key copilot-completion-map (kbd "<tab>") 'copilot-accept-completion)
+(define-key copilot-completion-map (kbd "TAB") 'copilot-accept-completion)
+
+;;----------------------------------------------------------------------------
 ;; Allow users to provide an optional "init-local" containing personal settings
 ;;----------------------------------------------------------------------------
 
