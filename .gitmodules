@@ -4,3 +4,6 @@
 [submodule "plugins/lsp-bridge"]
 	path = plugins/lsp-bridge
 	url = https://github.com/manateelazycat/lsp-bridge.git
+[submodule "plugins/copilot.el"]
+	path = plugins/copilot.el
+	url = https://github.com/copilot-emacs/copilot.el.git
