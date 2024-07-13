@@ -20,7 +20,7 @@ cookies
 \#*
 /elpa
 site-lisp/package/
-/swank
+/swankn
 /.mc-lists.el
 /var
 /.sqli_history
@@ -54,3 +54,4 @@ site-lisp/package/
 /.lsp-session-v1
 /game
 /games
+/eln-cache
