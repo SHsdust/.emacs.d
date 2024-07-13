@@ -253,7 +253,7 @@
 		   ("Toby Cubitt" . "toby-predictive@dr-qubit.org"))
 		  (:commit . "0807a75d2606462ef636b737e8f3873f98141a82"))])
  (autocrypt .
-	    [(0 4 1)
+	    [(0 4 2)
 	     ((emacs
 	       (24 3)))
 	     "Autocrypt implementation" tar
@@ -262,7 +262,7 @@
 	      (:maintainer "Philip Kaludercic" . "~pkal/public-inbox@lists.sr.ht")
 	      (:authors
 	       ("Philip Kaludercic" . "philipk@posteo.net"))
-	      (:commit . "a90aa6b644fe8cf72af9e1615a7c50b36b739e7c"))])
+	      (:commit . "dc0223f11daf526621fda206b38bf06c29759c94"))])
  (avy .
       [(0 5 0)
        ((emacs
@@ -488,7 +488,7 @@
 	     ("Kjartan Oli Agustsson" . "kjartanoli@disroot.org"))
 	    (:commit . "855a9cb092eecf1e5c17ea56c440a0200f95eb4c"))])
  (cape .
-       [(1 4)
+       [(1 5)
 	((emacs
 	  (27 1))
 	 (compat
@@ -499,7 +499,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "af61a4e670818f100beb6ef582449931b3965b10"))])
+	 (:commit . "bf22aa6ce0ffca1a1a77b693dddcd05eddc386f0"))])
  (capf-autosuggest .
 		   [(0 3)
 		    ((emacs
@@ -587,6 +587,19 @@
 	       (:authors
 		("Augusto Stoffel" . "arstoffel@gmail.com"))
 	       (:commit . "44546ca256f3da29e3ac884e3d699c8455acbd6e"))])
+ (colorful-mode .
+		[(1 0 0)
+		 ((emacs
+		   (28 1))
+		  (compat
+		   (29 1 4 4)))
+		 "Preview any color in your buffer in real time" tar
+		 ((:url . "https://github.com/DevelopmentCool2449/colorful-mode")
+		  (:keywords "faces" "tools" "matching")
+		  (:maintainer "Elias G. Perez" . "eg642616@gmail.com")
+		  (:authors
+		   ("Elias G. Perez" . "eg642616@gmail.com"))
+		  (:commit . "9d1e386f7ed3493b0196cf699bdd17d5610d43b3"))])
  (comint-mime .
 	      [(0 4)
 	       ((emacs
@@ -669,7 +682,7 @@
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:commit . "8d4e8a366681def88751f5e9975738ecd3180deb"))])
  (consult .
-	  [(1 4)
+	  [(1 5)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -678,9 +691,9 @@
 	   ((:url . "https://github.com/minad/consult")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:commit . "0eab65fe3273c97a422c99ee426eef7f2d2dffa4"))])
+	    (:commit . "d8888bb67f881a3c4855c9ce7224de18a7dc3901"))])
  (consult-hoogle .
-		 [(0 2 0)
+		 [(0 2 1)
 		  ((emacs
 		    (27 1))
 		   (haskell-mode
@@ -691,7 +704,7 @@
 		   (:maintainer "rahguzar" . "rahguzar@zohomail.eu")
 		   (:authors
 		    ("rahguzar" . "rahguzar@zohomail.eu"))
-		   (:commit . "9fde989e79c23b331198ccf788c02d702cb60f57"))])
+		   (:commit . "188c8d90a04adeb08c61a0835f5f9a9a10255495"))])
  (consult-recoll .
 		 [(0 8 1)
 		  ((emacs
@@ -1224,7 +1237,7 @@
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
 	(:commit . "eda749bc689591a8f43a98e002d63b4ef2d4602d"))])
  (ef-themes .
-	    [(1 6 1)
+	    [(1 7 0)
 	     ((emacs
 	       (27 1)))
 	     "Colorful and legible themes" tar
@@ -1233,7 +1246,7 @@
 	      (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	      (:authors
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	      (:commit . "96aaab126510bfd303558e2a9b85a745dab32f41"))])
+	      (:commit . "4d7cd1fdef459b9f76b9c1f35ec063d0eafe469a"))])
  (eglot .
 	[(1 17)
 	 ((emacs
@@ -1303,7 +1316,7 @@
 		     (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
 		     (:commit . "70e38dbfa8f4acbdebfd0f417410d99f5031e05f"))])
  (ellama .
-	 [(0 9 0)
+	 [(0 9 1)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -1316,7 +1329,7 @@
 	   (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
-	   (:commit . "a931224a0d096938f912da7a125fbd569cec6251"))])
+	   (:commit . "6e6ec8e28b8ce32ff207b1b026aaaeddc1bd8239"))])
  (emacs-gc-stats .
 		 [(1 4 2)
 		  ((emacs
@@ -1328,7 +1341,7 @@
 		    ("Ihor Radchenko" . "yantar92@posteo.net"))
 		   (:commit . "05d669e123f411c9582f99a9a6182efa43d01a6b"))])
  (embark .
-	 [(1 0)
+	 [(1 1)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -1339,9 +1352,9 @@
 	   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-	   (:commit . "47b0c75d4bf4f72a7af839667c877c80bd493cdb"))])
+	   (:commit . "195add1f1ccd1059472c9df7334c97c4d155425e"))])
  (embark-consult .
-		 [(1 0)
+		 [(1 1)
 		  ((emacs
 		    (27 1))
 		   (compat
@@ -1356,9 +1369,9 @@
 		   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-		   (:commit . "47b0c75d4bf4f72a7af839667c877c80bd493cdb"))])
+		   (:commit . "195add1f1ccd1059472c9df7334c97c4d155425e"))])
  (ement .
-	[(0 14)
+	[(0 15)
 	 ((emacs
 	   (27 1))
 	  (map
@@ -1381,7 +1394,7 @@
 	  (:maintainer "Adam Porter" . "adam@alphapapa.net")
 	  (:authors
 	   ("Adam Porter" . "adam@alphapapa.net"))
-	  (:commit . "0c725c6c73babaea11e7a738b9224962310f78ed"))])
+	  (:commit . "dc314a120ca6c62c49342e1b109ae1282116257a"))])
  (emms .
        [(19)
 	((cl-lib
@@ -1641,15 +1654,15 @@
 		       ("Manuel Uberti" . "manuel.uberti@inventati.org"))
 		      (:commit . "9c68ee881f18f554f0ab5bbf5bee1a4b753d792b"))])
  (fontaine .
-	   [(1 0 0)
+	   [(2 0 0)
 	    ((emacs
-	      (27 1)))
+	      (29 1)))
 	    "Set font configurations using presets" tar
-	    ((:url . "https://git.sr.ht/~protesilaos/fontaine")
-	     (:maintainer "Fontaine Development" . "~protesilaos/fontaine@lists.sr.ht")
+	    ((:url . "https://github.com/protesilaos/fontaine")
+	     (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	     (:authors
 	      ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	     (:commit . "10c4fa74e56edbb1e9c5209d8189cfa30cbd8512"))])
+	     (:commit . "353e03ece05f31131bd160176b9c3c4bc2b7b365"))])
  (frame-tabs .
 	     [(1 1)
 	      nil "show buffer tabs in side window" tar
@@ -1865,7 +1878,7 @@
 	     ("Sean Allred" . "code@seanallred.com"))
 	    (:commit . "b57b5ca5d2d0837e1fb4a4f30c051d5f3e643f0f"))])
  (greader .
-	  [(0 9 19)
+	  [(0 9 20)
 	   ((emacs
 	     (25)))
 	   "gnamù reader, send buffer contents to a speech engine." tar
@@ -1874,7 +1887,7 @@
 	    (:authors
 	     ("Michelangelo Rodriguez" . "michelangelo.rodriguez@gmail.com"))
 	    (:url . "https://elpa.gnu.org/packages/greader.html")
-	    (:commit . "96120885906c7e4b6d943f98d07f5cf4fb062ab8"))])
+	    (:commit . "524ec7c80038a7f38ab6968cec4e357394e58e66"))])
  (greenbar .
 	   [(1 1)
 	    nil "Mark comint output with \"greenbar\" background" tar
@@ -1885,13 +1898,13 @@
 	     (:url . "https://elpa.gnu.org/packages/greenbar.html")
 	     (:commit . "9526f29d073c533c3e54f0a7597eef1587ffb99e"))])
  (gtags-mode .
-	     [(1 2)
+	     [(1 5)
 	      ((emacs
 		(28)))
 	      "GNU Global integration with xref, project and imenu." tar
 	      ((:url . "https://github.com/Ergus/gtags-mode")
 	       (:keywords "xref" "project" "imenu" "gtags" "global")
-	       (:commit . "3c685185625e03343c995974ee1d026c9ef808c4"))])
+	       (:commit . "627b2d458af9d72cc5bc638f133764e7a209333c"))])
  (guess-language .
 		 [(0 0 1)
 		  ((cl-lib
@@ -2154,7 +2167,7 @@
 		(:url . "https://elpa.gnu.org/packages/jgraph-mode.html")
 		(:commit . "4e13f89fe8837b84d40b969e6a5431816180a747"))])
  (jinx .
-       [(1 5)
+       [(1 6)
 	((emacs
 	  (27 1))
 	 (compat
@@ -2165,7 +2178,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "a3d69abcb44555ddf5dbf03eee3c6188a456eceb"))])
+	 (:commit . "f4abad42cd0bdcff62ac325a644cb8faad186a4b"))])
  (jit-spell .
 	    [(0 4)
 	     ((emacs
@@ -2700,14 +2713,14 @@
 		(:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
 		(:commit . "6c38e95b8e846aceb88398c682fd283052924556"))])
  (nano-modeline .
-		[(1 0 1)
+		[(1 1 0)
 		 ((emacs
 		   (27 1)))
 		 "N Λ N O modeline" tar
 		 ((:url . "https://github.com/rougier/nano-modeline")
 		  (:keywords "convenience" "mode-line" "header-line")
 		  (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
-		  (:commit . "a18780c277838983932623870752f0adddef0345"))])
+		  (:commit . "04676d57a1e602123a593836745a744d1b2028fb"))])
  (nano-theme .
 	     [(0 3 4)
 	      ((emacs
@@ -2874,7 +2887,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "3847f311077efa17951a786d2759f2639c5f43c8"))])
  (org .
-      [(9 6 25)
+      [(9 6 28)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2883,7 +2896,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "9bff93f19a8ca565534f02ae5aa70b16af939cf2"))])
+	(:commit . "0e743d0bfca7eb9861795791b9d3b5f05b777723"))])
  (org-contacts .
 	       [(1 1)
 		((emacs
@@ -3132,7 +3145,7 @@
 	    (:url . "https://elpa.gnu.org/packages/persist.html")
 	    (:commit . "737d095b4504436e6d870923ed471687f16b992e"))])
  (phps-mode .
-	    [(0 4 48)
+	    [(0 4 49)
 	     ((emacs
 	       (26)))
 	     "Major mode for PHP with code intelligence" tar
@@ -3141,7 +3154,7 @@
 	      (:maintainer "Christian Johansson" . "christian@cvj.se")
 	      (:authors
 	       ("Christian Johansson" . "christian@cvj.se"))
-	      (:commit . "676cfe11e673a3c63ac37b4f0dfd5b1c75ca4d4f"))])
+	      (:commit . "98fdd10d6299dfc5ad24cc214c9eaa0fdba946e4"))])
  (pinentry .
 	   [(0 1)
 	    nil "GnuPG Pinentry server implementation" tar
@@ -3152,7 +3165,7 @@
 	     (:url . "https://elpa.gnu.org/packages/pinentry.html")
 	     (:commit . "ef0d62bba29dfab07624d030032ec0f67d34e865"))])
  (plz .
-      [(0 7 3)
+      [(0 8)
        ((emacs
 	 (26 3)))
        "HTTP library" tar
@@ -3161,7 +3174,7 @@
 	(:maintainer "Adam Porter" . "adam@alphapapa.net")
 	(:authors
 	 ("Adam Porter" . "adam@alphapapa.net"))
-	(:commit . "1b66fa907d6dbc64c6a01b96d58261f67a09200e"))])
+	(:commit . "57f10482655f02c3cc8ff35d31bd83dd6d809d02"))])
  (plz-see .
 	  [(0 1)
 	   ((emacs
@@ -3214,7 +3227,7 @@
 	    ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 	   (:commit . "fe4f0b3b8b16f005fb8b5f79bc26b380038400ab"))])
  (posframe .
-	   [(1 4 2)
+	   [(1 4 3)
 	    ((emacs
 	      (26 1)))
 	    "Pop a posframe (just a frame) at point" tar
@@ -3223,7 +3236,7 @@
 	     (:maintainer "Feng Shu" . "tumashu@163.com")
 	     (:authors
 	      ("Feng Shu" . "tumashu@163.com"))
-	     (:commit . "3b97dc180b03498103cfcc7f44e64150df440bf0"))])
+	     (:commit . "468ac1ab50d7e0feae2c06f12596bbc169f2abe4"))])
  (pq .
      [(0 2)
       ((emacs
@@ -3364,7 +3377,7 @@
 		("Alex Schroeder" . "alex@gnu.org"))
 	       (:maintainer "Alex Schroeder" . "alex@gnu.org"))])
  (rcirc-sqlite .
-	       [(0 1 4)
+	       [(1 0 1)
 		((emacs
 		  (30 0)))
 		"rcirc logging in SQLite" tar
@@ -3373,7 +3386,7 @@
 		 (:maintainer "Matto Fransen" . "matto@matto.nl")
 		 (:authors
 		  ("Matto Fransen" . "matto@matto.nl"))
-		 (:commit . "84e49e3735a84b1903679aa7577a24aa32357e2d"))])
+		 (:commit . "a2dca3182572ab2af7018a91186dbf9bcb2db2b5"))])
  (realgud .
 	  [(1 5 1)
 	   ((load-relative
@@ -3640,7 +3653,7 @@
 	(:url . "https://elpa.gnu.org/packages/seq.html")
 	(:commit . "27a90793a13f149121180e864fa53d68b9eac0b3"))])
  (setup .
-	[(1 3 2)
+	[(1 4 0)
 	 ((emacs
 	   (26 1)))
 	 "Helpful Configuration Macro" tar
@@ -3649,7 +3662,7 @@
 	  (:maintainer "Philip Kaludercic" . "~pkal/public-inbox@lists.sr.ht")
 	  (:authors
 	   ("Philip Kaludercic" . "philipk@posteo.net"))
-	  (:commit . "28926bd11eef6118f4e169d10c1c36b8c4e545ae"))])
+	  (:commit . "858ea70760426a9e1fa1ce1f21fb8f8d62bd1803"))])
  (shelisp .
 	  [(1 0 0)
 	   nil "execute elisp in shell" tar
@@ -3805,7 +3818,7 @@
 	     ("Artur Malabarba" . "emacs@endlessparentheses.com"))
 	    (:commit . "fffe8d0b42b143a2e7df0470d9049fa57b6ecac5"))])
  (spacious-padding .
-		   [(0 4 1)
+		   [(0 5 0)
 		    ((emacs
 		      (28 1)))
 		    "Increase the padding/spacing of frames and windows" tar
@@ -3814,7 +3827,7 @@
 		     (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		     (:authors
 		      ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		     (:commit . "21be66a8293292234a7e4624c35f6645a044f7fa"))])
+		     (:commit . "e48f3335f50217e40081631abacc40964150f3ab"))])
  (spinner .
 	  [(1 7 4)
 	   ((emacs
@@ -4163,6 +4176,16 @@
 	     (:authors
 	      ("Trevor Edwin Pogue" . "trevor.pogue@gmail.com"))
 	     (:commit . "33c2a6f0a11d1d88cdb2065c5a897e33507f4c86"))])
+ (track-changes .
+		[(1 1)
+		 ((emacs
+		   (24)))
+		 "API to react to buffer modifications" tar
+		 ((:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca")
+		  (:authors
+		   ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
+		  (:url . "https://elpa.gnu.org/packages/track-changes.html")
+		  (:commit . "523aca13a45159711d7d9d7561e69d38acdac12a"))])
  (tramp .
 	[(2 6 3)
 	 ((emacs
@@ -4486,7 +4509,7 @@
 		  ("Wilson Snyder" . "wsnyder@wsnyder.org"))
 		 (:commit . "b2d18ff944ae374fa03579ca2574f1fba8ae2e4b"))])
  (vertico .
-	  [(1 7)
+	  [(1 8)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -4497,7 +4520,7 @@
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	    (:commit . "cf8b2abf5207696c054c33214c86e3969d415054"))])
+	    (:commit . "1def56a1e678ff9a8eeafafda9c474a5fbb097c4"))])
  (vertico-posframe .
 		   [(0 7 7)
 		    ((emacs
@@ -4517,12 +4540,13 @@
 	   [(1 0)
 	    ((emacs
 	      (25 1)))
-	    "Run a vigenere cipher on a block of text ;" single
-	    ((:keywords "data" "vigenere" "cipher")
+	    "Run a vigenere cipher on a block of text ;" tar
+	    ((:url . "https://elpa.gnu.org/packages/vigenere.html")
+	     (:keywords "data" "vigenere" "cipher")
+	     (:maintainer "Ian Dunn" . "dunni@gnu.org")
 	     (:authors
 	      ("Ian Dunn" . "dunni@gnu.org"))
-	     (:maintainer "Ian Dunn" . "dunni@gnu.org")
-	     (:url . "https://elpa.gnu.org/packages/vigenere.html"))])
+	     (:commit . "434270403845789f4be32102c573ea965e870d19"))])
  (visual-filename-abbrev .
 			 [(1 2)
 			  ((emacs
@@ -4535,20 +4559,22 @@
 			   (:url . "https://elpa.gnu.org/packages/visual-filename-abbrev.html")
 			   (:commit . "3c1a54e2cec935126a74e40920f2cb7929fa4e75"))])
  (visual-fill .
-	      [(0 1)
-	       nil "Auto-refill paragraphs without modifying the buffer" single
-	       ((:url . "http://elpa.gnu.org/packages/visual-fill.html")
+	      [(0 2)
+	       nil "Auto-refill paragraphs without modifying the buffer" tar
+	       ((:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca")
 		(:authors
 		 ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
-		(:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca"))])
+		(:url . "https://elpa.gnu.org/packages/visual-fill.html")
+		(:commit . "1951eaf59e25091d5597cc45e3dd5925be005122"))])
  (vlf .
       [(1 7 2)
        nil "View Large Files" tar
        ((:url . "https://github.com/m00natic/vlfi")
+	(:keywords "large files" "utilities")
 	(:maintainer "Andrey Kotlarski" . "m00naticus@gmail.com")
-	(:keywords "large files" "utilities"))])
+	(:commit . "efffeb5f54191d41a503d1d51343bb327fe2f871"))])
  (vundo .
-	[(2 2 0)
+	[(2 3 0)
 	 ((emacs
 	   (28 1)))
 	 "Visual undo tree" tar
@@ -4557,7 +4583,7 @@
 	  (:maintainer "Yuan Fu" . "casouri@gmail.com")
 	  (:authors
 	   ("Yuan Fu" . "casouri@gmail.com"))
-	  (:commit . "9f47232c6a5d357478bc979ef0908b307b08d1da"))])
+	  (:commit . "4c01db9c011b7b4ca4ef5da338cdc6ea45aac7a5"))])
  (wcheck-mode .
 	      [(2021)
 	       nil "General interface for text checkers" tar
@@ -4565,37 +4591,41 @@
 		(:keywords "text" "spell" "check" "languages" "ispell")
 		(:maintainer "Teemu Likonen" . "tlikonen@iki.fi")
 		(:authors
-		 ("Teemu Likonen" . "tlikonen@iki.fi")))])
+		 ("Teemu Likonen" . "tlikonen@iki.fi"))
+		(:commit . "e1c86e6f9e150ed25efb58fcf21db374b1b7f519"))])
  (wconf .
 	[(0 2 1)
 	 ((emacs
 	   (24 4)))
-	 "Minimal window layout manager" single
-	 ((:keywords "windows" "frames" "layout")
+	 "Minimal window layout manager" tar
+	 ((:url . "https://github.com/ilohmar/wconf")
+	  (:keywords "windows" "frames" "layout")
+	  (:maintainer "Ingo Lohmar" . "i.lohmar@gmail.com")
 	  (:authors
 	   ("Ingo Lohmar" . "i.lohmar@gmail.com"))
-	  (:maintainer "Ingo Lohmar" . "i.lohmar@gmail.com")
-	  (:url . "https://github.com/ilohmar/wconf"))])
+	  (:commit . "833ae431a5b35739be3076ea4b586d84d6fe269f"))])
  (web-server .
 	     [(0 1 2)
 	      ((emacs
 		(24 3)))
 	      "Emacs Web Server" tar
 	      ((:url . "https://github.com/eschulte/emacs-web-server")
+	       (:keywords "http" "server" "network")
 	       (:maintainer "Eric Schulte" . "schulte.eric@gmail.com")
 	       (:authors
 		("Eric Schulte" . "schulte.eric@gmail.com"))
-	       (:keywords "http" "server" "network"))])
+	       (:commit . "33afdb46e1cd61251736816d965495525b36c9cd"))])
  (webfeeder .
 	    [(1 1 2)
 	     ((emacs
 	       (25 1)))
 	     "Build RSS and Atom webfeeds from HTML files" tar
 	     ((:url . "https://gitlab.com/Ambrevar/emacs-webfeeder")
+	      (:keywords "news" "hypermedia" "blog" "feed" "rss" "atom")
 	      (:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz")
 	      (:authors
 	       ("Pierre Neidhardt" . "mail@ambrevar.xyz"))
-	      (:keywords "news" "hypermedia" "blog" "feed" "rss" "atom"))])
+	      (:commit . "6037848ee495a67510d8b43f1fbe319b76dbd859"))])
  (websocket .
 	    [(1 15)
 	     ((cl-lib
@@ -4640,12 +4670,13 @@
 	     (:url . "https://gitlab.com/ambrevar/windower"))])
  (windresize .
 	     [(0 1)
-	      nil "Resize windows interactively" single
-	      ((:url . "http://elpa.gnu.org/packages/windresize.html")
-	       (:keywords "window")
+	      nil "Resize windows interactively" tar
+	      ((:keywords "window")
+	       (:maintainer "Bastien" . "bzgATalternDOTorg")
 	       (:authors
-		("Bastien" . "bzg@gnu.org"))
-	       (:maintainer "Bastien" . "bzg@gnu.org"))])
+		("Bastien" . "bzgATalternDOTorg"))
+	       (:url . "https://elpa.gnu.org/packages/windresize.html")
+	       (:commit . "0693d5d864ac9fd033c868bdd887e66278e056e9"))])
  (wisi .
        [(4 3 2)
 	((emacs
@@ -4676,20 +4707,21 @@
 			   (:commit . "2d58879cea26b8a3b573d084d149dea94f93dfb8"))])
  (wpuzzle .
 	  [(1 1)
-	   nil "find as many word in a given time" single
-	   ((:url . "http://elpa.gnu.org/packages/wpuzzle.html")
+	   nil "find as many word in a given time" tar
+	   ((:maintainer "Ivan Kanis" . "ivan@kanis.fr")
 	    (:authors
 	     ("Ivan Kanis" . "ivan@kanis.fr"))
-	    (:maintainer "Ivan Kanis" . "ivan@kanis.fr"))])
+	    (:url . "https://elpa.gnu.org/packages/wpuzzle.html")
+	    (:commit . "9373cbc013b978b31e38822bfdcc9a7fc5e0ed99"))])
  (wrap-search .
-	      [(4 12 10)
+	      [(4 14 11)
 	       nil "wrapped, non-incremental search" tar
 	       ((:url . "https://dataswamp.org/~incal/emacs-init/wrap-search.el")
 		(:keywords "matching")
 		(:maintainer "Emanuel Berg" . "incal@dataswamp.org")
 		(:authors
 		 ("Emanuel Berg" . "incal@dataswamp.org"))
-		(:commit . "12a50aa425278d5982364b0f97e7a9f13ac52fe9"))])
+		(:commit . "72c8273811b555645ff59d6dd435e6ca3913aae8"))])
  (xclip .
 	[(1 11)
 	 nil "Copy&paste GUI clipboard from text terminal" tar
@@ -4718,10 +4750,11 @@
 	  (0 2)))
 	"X protocol Emacs Lisp Binding" tar
 	((:url . "https://github.com/ch11ng/xelb")
+	 (:keywords "unix")
 	 (:maintainer "Chris Feng" . "chris.w.feng@gmail.com")
 	 (:authors
 	  ("Chris Feng" . "chris.w.feng@gmail.com"))
-	 (:keywords "unix"))])
+	 (:commit . "0f10c956349515b17bf1b5ac1fb7c65a736d401d"))])
  (xpm .
       [(1 0 5)
        ((cl-lib
@@ -4733,7 +4766,8 @@
 	(:keywords "multimedia" "xpm")
 	(:maintainer "Thien-Thi Nguyen" . "ttn@gnu.org")
 	(:authors
-	 ("Thien-Thi Nguyen" . "ttn@gnu.org")))])
+	 ("Thien-Thi Nguyen" . "ttn@gnu.org"))
+	(:commit . "85e5c412dde7ec3c3f64c64d37079e233293e4d0"))])
  (xr .
      [(1 25)
       ((emacs
@@ -4778,9 +4812,10 @@
 			      ((yasnippet
 				(0 9 1)))
 			      "\"Classic\" yasnippet snippets" tar
-			      ((:maintainer "Noam Postavsky" . "npostavs@gmail.com")
-			       (:keywords "snippets")
-			       (:url . "http://elpa.gnu.org/packages/yasnippet-classic-snippets.html"))])
+			      ((:keywords "snippets")
+			       (:maintainer "Noam Postavsky" . "npostavs@gmail.com")
+			       (:url . "https://elpa.gnu.org/packages/yasnippet-classic-snippets.html")
+			       (:commit . "43ff0337f5ec504f2a496f2f035a5087cd8e2074"))])
  (zones .
 	[(2023 6 11)
 	 nil "Zones of text - like multiple regions" tar
@@ -4794,10 +4829,11 @@
 	   (0)))
 	 "Text mode directory tree" tar
 	 ((:url . "https://github.com/fourier/ztree")
+	  (:keywords "files" "tools")
 	  (:maintainer "Alexey Veretennikov" . "alexey.veretennikov@gmail.com")
 	  (:authors
 	   ("Alexey Veretennikov" . "alexey.veretennikov@gmail.com"))
-	  (:keywords "files" "tools"))])
+	  (:commit . "c9ad9136d52ca5a81475693864e255d29448f43f"))])
  (zuul .
        [(0 4 0)
 	((emacs

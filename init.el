@@ -134,7 +134,7 @@
 
 ;;(require 'init-twitter)
 ;; (require 'init-mu)
-(require 'init-ledger)
+;; (require 'init-ledger)
 ;; Extra packages which don't require any configuration
 
 (require-package 'sudo-edit)
@@ -219,6 +219,7 @@
 (add-hook 'prog-mode-hook 'copilot-mode)
 (define-key copilot-completion-map (kbd "<tab>") 'copilot-accept-completion)
 (define-key copilot-completion-map (kbd "TAB") 'copilot-accept-completion)
+(setq copilot-network-proxy '(:host "127.0.0.1" :port 1080))
 
 ;;----------------------------------------------------------------------------
 ;; Allow users to provide an optional "init-local" containing personal settings
