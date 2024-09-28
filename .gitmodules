@@ -7,3 +7,6 @@
 [submodule "plugins/copilot.el"]
 	path = plugins/copilot.el
 	url = https://github.com/copilot-emacs/copilot.el.git
+[submodule "plugins/blink-search"]
+	path = plugins/blink-search
+	url = https://github.com/manateelazycat/blink-search.git

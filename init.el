@@ -204,12 +204,15 @@
 ;;----------------------------------------------------------------------------
 (add-to-list 'load-path "~/.emacs.d/plugins/yasnippet")
 (add-to-list 'load-path "~/.emacs.d/plugins/lsp-bridge")
+(add-to-list 'load-path "~/.emacs.d/plugins/blink-search")
 
 (require 'yasnippet)
 (yas-global-mode 1)
 
 (require 'lsp-bridge)
 (global-lsp-bridge-mode)
+
+(require 'blink-search)
 
 ;;----------------------------------------------------------------------------
 ;; copilot
