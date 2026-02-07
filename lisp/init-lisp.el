@@ -27,7 +27,7 @@
       (goto-char (point-max))
       (insert ";;; " fname " ends here\n"))))
 
-
+
 ;; Make C-x C-e run 'eval-region if the region is active
 
 (defun sanityinc/eval-last-sexp-or-region (prefix)

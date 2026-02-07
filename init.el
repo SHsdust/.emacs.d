@@ -217,12 +217,12 @@
 ;;----------------------------------------------------------------------------
 ;; copilot
 ;;----------------------------------------------------------------------------
-(add-to-list 'load-path "~/.emacs.d/plugins/copilot.el")
-(require 'copilot)
-(add-hook 'prog-mode-hook 'copilot-mode)
-(define-key copilot-completion-map (kbd "<tab>") 'copilot-accept-completion)
-(define-key copilot-completion-map (kbd "TAB") 'copilot-accept-completion)
-(setq copilot-network-proxy '(:host "127.0.0.1" :port 1080))
+;; (add-to-list 'load-path "~/.emacs.d/plugins/copilot.el")
+;; (require 'copilot)
+;; (add-hook 'prog-mode-hook 'copilot-mode)
+;; (define-key copilot-completion-map (kbd "<tab>") 'copilot-accept-completion)
+;; (define-key copilot-completion-map (kbd "TAB") 'copilot-accept-completion)
+;; (setq copilot-network-proxy '(:host "127.0.0.1" :port 1080))
 
 ;;----------------------------------------------------------------------------
 ;; Allow users to provide an optional "init-local" containing personal settings
